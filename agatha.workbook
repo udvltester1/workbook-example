@@ -59,7 +59,7 @@
     "5": {
       "id": 5,
       "type": "text",
-      "data": "### Model bui",
+      "data": "### Model building\n\nAssume we'd",
       "idCounter": 0,
       "comments": {
         "ids": [],
