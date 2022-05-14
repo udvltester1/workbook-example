@@ -1,5 +1,5 @@
 {
-  "idCounter": 8,
+  "idCounter": 9,
   "cells": {
     "0": {
       "id": 0,
@@ -76,12 +76,23 @@
         "ids": [],
         "entities": {}
       },
-      "isEdited": true
+      "isEdited": false
     },
     "7": {
       "id": 7,
       "type": "text",
       "data": "Structure Explorer is flexible enough to be used in different kinds of exercises –\nchecking whether students' guesses of truth/falsity of formulas are correct,\nfinding models of given formulas, describing models with formulas etc.",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "8": {
+      "id": 8,
+      "type": "text",
+      "data": "some content",
       "idCounter": 0,
       "comments": {
         "ids": [],
@@ -98,6 +109,7 @@
     5,
     6,
     7,
+    8,
     1
   ],
   "firstCellId": 0,
