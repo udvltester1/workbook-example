@@ -26,7 +26,7 @@
     "2": {
       "id": 2,
       "type": "text",
-      "data": "## About Logic Workbook\n\nLogic Workbook allows editing worksheets similar to Jupyter or Mathematica notebooks\nwithin a Git.\nWorksheets consist of Text and App cells.\n\nText cells contain Markdown-formatted text with $\\LaTeX$ math (rendered by $\\KaTeX$).\n\nApp cells can contain one of our logic apps: Structure Explorer, Tableau Editor,\nor Resolution Editor (with Formalization Checker comming soon).\n\nCells are locked by default and can be unlocked for editing by double-clicking ",
+      "data": "## About Logic Workbook\n\nLogic Workbook allows editing worksheets similar to Jupyter or Mathematica notebooks\nwithin a GitHub repository.\n\nWorksheets consist of Text and App cells.\n\nText cells contain Markdown-formatted text with $\\LaTeX$ math (rendered by $\\KaTeX$).\n\nApp cells can contain one of our logic apps: Structure Explorer, Tableau Editor,\nor Resolution Editor (with Formalization Checker comming soon).\n\nCells are locked by default and can be unlocked for editing by double-clicking ",
       "idCounter": 0,
       "comments": {
         "ids": [],
