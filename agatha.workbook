@@ -4,18 +4,19 @@
     "0": {
       "id": 0,
       "type": "text",
-      "data": "some content",
+      "data": "# Agatha",
       "idCounter": 0,
       "comments": {
         "ids": [],
         "entities": {}
       },
-      "isEdited": false
+      "isEdited": true
     }
   },
   "cellsOrder": [
     0
   ],
   "firstCellId": 0,
-  "lastCellId": 0
+  "lastCellId": 0,
+  "editedCellId": 0
 }
