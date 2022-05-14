@@ -81,7 +81,7 @@
     "7": {
       "id": 7,
       "type": "text",
-      "data": "Structure Explorer is flexible enou",
+      "data": "Structure Explorer is flexible enough to be",
       "idCounter": 0,
       "comments": {
         "ids": [],
