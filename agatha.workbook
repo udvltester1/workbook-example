@@ -92,13 +92,13 @@
     "8": {
       "id": 8,
       "type": "text",
-      "data": "### Proofs\n\nWhen trying to find the model, you quickly find out, who the killer is – apparently poor Agatha committed suicide.\nWe can prove that this is indeed a logical consequence of the theory.",
+      "data": "### TProof\n\nWhen trying to find the model, you quickly find out, who the killer is – apparently poor Agatha committed suicide.\nWe can prove that this is indeed a logical consequence of the theory.\n\nWe will fi",
       "idCounter": 0,
       "comments": {
         "ids": [],
         "entities": {}
       },
-      "isEdited": false
+      "isEdited": true
     },
     "9": {
       "id": 9,
