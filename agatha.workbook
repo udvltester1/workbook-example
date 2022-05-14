@@ -43,7 +43,7 @@
         "ids": [],
         "entities": {}
       },
-      "isEdited": true
+      "isEdited": false
     },
     "4": {
       "id": 4,
@@ -54,7 +54,7 @@
         "ids": [],
         "entities": {}
       },
-      "isEdited": false
+      "isEdited": true
     }
   },
   "cellsOrder": [
@@ -66,5 +66,5 @@
   ],
   "firstCellId": 0,
   "lastCellId": 1,
-  "editedCellId": 3
+  "editedCellId": 4
 }
