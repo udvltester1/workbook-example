@@ -92,7 +92,7 @@
     "8": {
       "id": 8,
       "type": "text",
-      "data": "### Tableau Proof\n\nWhen trying to find the model, you quickly find out, who the killer is – apparently poor Agatha committed suicide.\nWe can prove that this is indeed a logical consequence of the theory.\n\nWe will find out as ",
+      "data": "### Tableau Proof\n\nWhen trying to find the model, you quickly find out, who the killer is – apparently poor Agatha committed suicide.\nWe can prove that this is indeed a logical consequence of the theory.\n\nWe will first use a tableau with some ",
       "idCounter": 0,
       "comments": {
         "ids": [],
