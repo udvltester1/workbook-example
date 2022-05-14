@@ -65,7 +65,7 @@
         "ids": [],
         "entities": {}
       },
-      "isEdited": true
+      "isEdited": false
     },
     "6": {
       "id": 6,
