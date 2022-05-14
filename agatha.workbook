@@ -10,7 +10,7 @@
         "ids": [],
         "entities": {}
       },
-      "isEdited": false
+      "isEdited": true
     },
     "1": {
       "id": 1,
@@ -37,7 +37,7 @@
     "3": {
       "id": 3,
       "type": "text",
-      "data": "some content",
+      "data": "## Agatha",
       "idCounter": 0,
       "comments": {
         "ids": [],
@@ -54,5 +54,5 @@
   ],
   "firstCellId": 0,
   "lastCellId": 1,
-  "editedCellId": 2
+  "editedCellId": 0
 }
