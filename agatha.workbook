@@ -81,13 +81,13 @@
     "7": {
       "id": 7,
       "type": "text",
-      "data": "some content",
+      "data": "Structure Explorer is flexible enou",
       "idCounter": 0,
       "comments": {
         "ids": [],
         "entities": {}
       },
-      "isEdited": false
+      "isEdited": true
     }
   },
   "cellsOrder": [
@@ -102,5 +102,5 @@
   ],
   "firstCellId": 0,
   "lastCellId": 1,
-  "editedCellId": 5
+  "editedCellId": 7
 }
