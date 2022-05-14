@@ -1,0 +1,142 @@
+{
+  "idCounter": 13,
+  "cells": {
+    "0": {
+      "id": 0,
+      "type": "text",
+      "data": "# Logic Workboox Example\n",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "1": {
+      "id": 1,
+      "type": "text",
+      "data": "## Bibliography\n\nF.J. Pelletier. _Seventy-Five Problems for Testing Automatic Theorem Provers._ J Autom Reasoning 2, 191–216 (1986). https://doi.org/10.1007/BF02432151",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "2": {
+      "id": 2,
+      "type": "text",
+      "data": "## About Logic Workbook\n\nLogic Workbook allows editing worksheets similar to Jupyter or Mathematica notebooks\nwithin a GitHub repository.\n\nWorksheets consist of Text and App cells:\n_Text cells_ contain Markdown-formatted text with $\\LaTeX$ math (rendered by $\\KaTeX$).\n_App cells_ contain one of our logic apps: Structure Explorer, Tableau Editor,\nor Resolution Editor (with Formalization Checker comming soon).\n\nNew cells are added using green buttons _+ Text_ and _+ App_ below existing cells.\n\nCells can be unlocked for editing by double-clicking or clicking the blue _Upraviť_ button\nin their top-right corners. Clicking the _Zamknúť_ button locks the cell.\n\nCells can also be shuffled around, deleted, and commented on with the respective icon-labeled buttons.",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "3": {
+      "id": 3,
+      "type": "text",
+      "data": "## Dreadsburry Murder Mystery\n\nSomeone in Dreadsbury Mansion killed Aunt Agatha.\nAgatha, the butler, and Charles live in Dreadsbury Mansion,\nand are the only ones to live there.\nA killer always hates, and is no richer than his victim.\nCharles hates no one whom Agatha hates.\nAgatha hates everybody except the butler.\nThe butler hates everyone not richer than Aunt Agatha.\nThe butler hates everyone whom Agatha hates.\nNo one hates everyone.\nAgatha is not the butler.\nWho killed Agatha?\n\n— _L.K. Schubert via Pelletier (1986)_",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "4": {
+      "id": 4,
+      "type": "text",
+      "data": "### Formalization\n\nYou can **stop scrolling here** and try to formalize the mystery yourself.\nYou can verify your formalization using our [Formalization Checker](https://fmfi-uk-1-ain-412.github.io/formalization-checker/solve/11),\nwhich alas is yet integrated into the Workbook since it has only recently been finished.",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "5": {
+      "id": 5,
+      "type": "text",
+      "data": "### Model building\n\nAssume we'd like to check whether the mystery is not contradictory.\nTowards this end we can try to find a model of the formalized theory\nusing the Structure Explorer as shown below.\n\nWe set up the first-order language of the theory in the upper-left section,\ninsert formulas in the right-hand section, and build the model\nin the left-hand section. When Structure Explorer is in the editable state,\nits left and right halves can be scrolled independently,\nwhich helps observing the effect of changing the structure\non the truth values of formulas.\n\nIf a formula is false though we expect it to be true,\nwe can play a Henkin–Hintikka game with the Explorer better understand\nwhy the formula is false.",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "6": {
+      "id": 6,
+      "type": "structureExplorer",
+      "data": "{\"common\":{\"teacherMode\":false},\"language\":{\"constants\":{\"value\":\"A, B, C\",\"locked\":false,\"errorMessage\":\"\",\"parsed\":[\"A\",\"B\",\"C\"]},\"predicates\":{\"value\":\"hates/2, killed/2, lives/1, richer/2\",\"locked\":false,\"errorMessage\":\"\",\"parsed\":[{\"name\":\"hates\",\"arity\":2},{\"name\":\"killed\",\"arity\":2},{\"name\":\"lives\",\"arity\":1},{\"name\":\"richer\",\"arity\":2}]},\"functions\":{\"value\":\"\",\"locked\":false,\"errorMessage\":\"\",\"parsed\":[]},\"lockedComponent\":true},\"structure\":{\"constants\":{\"A\":{\"value\":\"👵\",\"locked\":false,\"errorMessage\":\"\",\"parsed\":[]},\"B\":{\"value\":\"🤵‍♂️\",\"locked\":false,\"errorMessage\":\"\",\"parsed\":[]},\"C\":{\"value\":\"👨🏻\",\"locked\":false,\"errorMessage\":\"\",\"parsed\":[]}},\"predicates\":{\"hates/2\":{\"value\":\"(👵, 👵), (👵, 👨🏻), (🤵‍♂️, 👵), (🤵‍♂️, 👨🏻), (👨🏻, 🤵‍♂️)\",\"locked\":false,\"errorMessage\":\"\",\"parsed\":[[\"👵\",\"👵\"],[\"👵\",\"👨🏻\"],[\"🤵‍♂️\",\"👵\"],[\"🤵‍♂️\",\"👨🏻\"],[\"👨🏻\",\"🤵‍♂️\"]],\"tableEnabled\":false,\"databaseEnabled\":false},\"killed/2\":{\"value\":\"(👵, 👵)\",\"locked\":false,\"errorMessage\":\"\",\"parsed\":[[\"👵\",\"👵\"]],\"tableEnabled\":false},\"lives/1\":{\"value\":\"👵, 🤵‍♂️, 👨🏻\",\"locked\":false,\"errorMessage\":\"\",\"parsed\":[[\"👵\"],[\"🤵‍♂️\"],[\"👨🏻\"]],\"tableEnabled\":false},\"richer/2\":{\"value\":\"(🤵‍♂️, 👵)\",\"locked\":false,\"errorMessage\":\"\",\"parsed\":[[\"🤵‍♂️\",\"👵\"]],\"tableEnabled\":false}},\"functions\":{},\"variables\":{\"value\":\"\",\"locked\":false,\"errorMessage\":\"\",\"parsed\":[]},\"domain\":{\"value\":\"👵, 🤵‍♂️, 👨🏻\",\"locked\":false,\"errorMessage\":\"\",\"parsed\":[\"👵\",\"🤵‍♂️\",\"👨🏻\"]}},\"expressions\":{\"formulas\":[{\"value\":\"∃x ( lives(x) ∧ killed(x, A) )\",\"expressionValue\":true,\"answerValue\":true,\"errorMessage\":\"\",\"inputLocked\":false,\"answerLocked\":false,\"parsed\":{\"variableName\":\"x\",\"subFormula\":{\"subLeft\":{\"name\":\"lives\",\"terms\":[{\"name\":\"x\"}]},\"subRight\":{\"name\":\"killed\",\"terms\":[{\"name\":\"x\"},{\"name\":\"A\"}]}}},\"gameHistory\":[],\"showVariables\":false,\"gameEnabled\":false,\"variableIndex\":1,\"validSyntax\":true},{\"value\":\"lives(A) ∨ lives(B) ∨ lives(C)\",\"expressionValue\":true,\"answerValue\":true,\"errorMessage\":\"\",\"inputLocked\":false,\"answerLocked\":false,\"parsed\":{\"subLeft\":{\"subLeft\":{\"name\":\"lives\",\"terms\":[{\"name\":\"A\"}]},\"subRight\":{\"name\":\"lives\",\"terms\":[{\"name\":\"B\"}]}},\"subRight\":{\"name\":\"lives\",\"terms\":[{\"name\":\"C\"}]}},\"gameHistory\":[],\"showVariables\":false,\"gameEnabled\":false,\"variableIndex\":1,\"validSyntax\":true},{\"value\":\"∀x ( lives(x) → x ≐ A ∨ x ≐ B ∨ x ≐ C )\",\"expressionValue\":true,\"answerValue\":true,\"errorMessage\":\"\",\"inputLocked\":false,\"answerLocked\":false,\"parsed\":{\"variableName\":\"x\",\"subFormula\":{\"subLeft\":{\"name\":\"lives\",\"terms\":[{\"name\":\"x\"}]},\"subRight\":{\"subLeft\":{\"subLeft\":{\"subLeft\":{\"name\":\"x\"},\"subRight\":{\"name\":\"A\"}},\"subRight\":{\"subLeft\":{\"name\":\"x\"},\"subRight\":{\"name\":\"B\"}}},\"subRight\":{\"subLeft\":{\"name\":\"x\"},\"subRight\":{\"name\":\"C\"}}}}},\"gameHistory\":[],\"showVariables\":false,\"gameEnabled\":false,\"variableIndex\":1,\"validSyntax\":true},{\"value\":\"∀y ∀x ( killed(x, y) → ( hates(x, y) ∧ ¬richer(x, y) ) )\",\"expressionValue\":true,\"answerValue\":true,\"errorMessage\":\"\",\"inputLocked\":false,\"answerLocked\":false,\"parsed\":{\"variableName\":\"y\",\"subFormula\":{\"variableName\":\"x\",\"subFormula\":{\"subLeft\":{\"name\":\"killed\",\"terms\":[{\"name\":\"x\"},{\"name\":\"y\"}]},\"subRight\":{\"subLeft\":{\"name\":\"hates\",\"terms\":[{\"name\":\"x\"},{\"name\":\"y\"}]},\"subRight\":{\"subFormula\":{\"name\":\"richer\",\"terms\":[{\"name\":\"x\"},{\"name\":\"y\"}]}}}}}},\"gameHistory\":[],\"showVariables\":false,\"gameEnabled\":false,\"variableIndex\":1,\"validSyntax\":true},{\"value\":\"∀x ( hates(A, x) → ¬hates(C, x) )\",\"expressionValue\":true,\"answerValue\":true,\"errorMessage\":\"\",\"inputLocked\":false,\"answerLocked\":false,\"parsed\":{\"variableName\":\"x\",\"subFormula\":{\"subLeft\":{\"name\":\"hates\",\"terms\":[{\"name\":\"A\"},{\"name\":\"x\"}]},\"subRight\":{\"subFormula\":{\"name\":\"hates\",\"terms\":[{\"name\":\"C\"},{\"name\":\"x\"}]}}}},\"gameHistory\":[],\"showVariables\":false,\"gameEnabled\":false,\"variableIndex\":1,\"validSyntax\":true},{\"value\":\"∀x ( x ≠ B → hates(A, x) )\",\"expressionValue\":true,\"answerValue\":true,\"errorMessage\":\"\",\"inputLocked\":false,\"answerLocked\":false,\"parsed\":{\"variableName\":\"x\",\"subFormula\":{\"subLeft\":{\"subFormula\":{\"subLeft\":{\"name\":\"x\"},\"subRight\":{\"name\":\"B\"}}},\"subRight\":{\"name\":\"hates\",\"terms\":[{\"name\":\"A\"},{\"name\":\"x\"}]}}},\"gameHistory\":[],\"showVariables\":false,\"gameEnabled\":false,\"variableIndex\":1,\"validSyntax\":true},{\"value\":\"∀x ( ¬richer(x, A) → hates(B, x) )\",\"expressionValue\":true,\"answerValue\":true,\"errorMessage\":\"\",\"inputLocked\":false,\"answerLocked\":false,\"parsed\":{\"variableName\":\"x\",\"subFormula\":{\"subLeft\":{\"subFormula\":{\"name\":\"richer\",\"terms\":[{\"name\":\"x\"},{\"name\":\"A\"}]}},\"subRight\":{\"name\":\"hates\",\"terms\":[{\"name\":\"B\"},{\"name\":\"x\"}]}}},\"gameHistory\":[],\"showVariables\":false,\"gameEnabled\":false,\"variableIndex\":1,\"validSyntax\":true},{\"value\":\"∀x ( hates(A, x) → hates(B, x) )\",\"expressionValue\":true,\"answerValue\":true,\"errorMessage\":\"\",\"inputLocked\":false,\"answerLocked\":false,\"parsed\":{\"variableName\":\"x\",\"subFormula\":{\"subLeft\":{\"name\":\"hates\",\"terms\":[{\"name\":\"A\"},{\"name\":\"x\"}]},\"subRight\":{\"name\":\"hates\",\"terms\":[{\"name\":\"B\"},{\"name\":\"x\"}]}}},\"gameHistory\":[],\"showVariables\":false,\"gameEnabled\":false,\"variableIndex\":1,\"validSyntax\":true},{\"value\":\"∀x ∃y ¬hates(x, y)\",\"expressionValue\":true,\"answerValue\":true,\"errorMessage\":\"\",\"inputLocked\":false,\"answerLocked\":false,\"parsed\":{\"variableName\":\"x\",\"subFormula\":{\"variableName\":\"y\",\"subFormula\":{\"subFormula\":{\"name\":\"hates\",\"terms\":[{\"name\":\"x\"},{\"name\":\"y\"}]}}}},\"gameHistory\":[],\"showVariables\":false,\"gameEnabled\":false,\"variableIndex\":1,\"validSyntax\":true},{\"value\":\"A ≠ B\",\"expressionValue\":true,\"answerValue\":true,\"errorMessage\":\"\",\"inputLocked\":false,\"answerLocked\":false,\"parsed\":{\"subFormula\":{\"subLeft\":{\"name\":\"A\"},\"subRight\":{\"name\":\"B\"}}},\"gameHistory\":[],\"showVariables\":false,\"gameEnabled\":false,\"variableIndex\":1,\"validSyntax\":true}],\"terms\":[]},\"diagramCordState\":{}}",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "7": {
+      "id": 7,
+      "type": "text",
+      "data": "Structure Explorer is flexible enough to be used in different kinds of exercises –\nchecking whether students' guesses of truth/falsity of formulas are correct,\nfinding models of given formulas, describing models with formulas etc.",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "8": {
+      "id": 8,
+      "type": "text",
+      "data": "### Tableau Proof\n\nWhen trying to find the model, you quickly find out, who the killer is – apparently poor Agatha committed suicide.\nWe can prove that this is indeed a logical consequence of the theory.\n\nWe will first use a tableau with a full set of derived rules for first-order logic\nto keep the tableau concise and easy to follow.",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "9": {
+      "id": 9,
+      "type": "tableauEditor",
+      "data": "{\"type\":\"assumption\",\"node\":{\"id\":1,\"value\":\"T ∃x ( lives(x) ∧ killed(x, A) )\",\"references\":[]},\"child\":{\"type\":\"assumption\",\"node\":{\"id\":2,\"value\":\"T ( ( lives(A) ∨ lives(B) ) ∨ lives(C) )\",\"references\":[]},\"child\":{\"type\":\"assumption\",\"node\":{\"id\":3,\"value\":\"T ∀x ( lives(x) → ( ( x ≐ A ∨ x ≐ B ) ∨ x ≐ C ) )\",\"references\":[]},\"child\":{\"type\":\"assumption\",\"node\":{\"id\":4,\"value\":\"T ∀y ∀x ( killed(x, y) → ( hates(x, y) ∧ ¬ richer(x, y) ) )\",\"references\":[]},\"child\":{\"type\":\"assumption\",\"node\":{\"id\":5,\"value\":\"T ∀x ( hates(A, x) → ¬ hates(C, x) )\",\"references\":[]},\"child\":{\"type\":\"assumption\",\"node\":{\"id\":6,\"value\":\"T ∀x ( x ≠ B → hates(A, x) )\",\"references\":[]},\"child\":{\"type\":\"assumption\",\"node\":{\"id\":7,\"value\":\"T ∀x ( ¬ richer(x, A) → hates(B, x) )\",\"references\":[]},\"child\":{\"type\":\"assumption\",\"node\":{\"id\":8,\"value\":\"T ∀x ( hates(A, x) → hates(B, x) )\",\"references\":[]},\"child\":{\"type\":\"assumption\",\"node\":{\"id\":9,\"value\":\"T ∀x ∃y ¬ hates(x, y)\",\"references\":[]},\"child\":{\"type\":\"assumption\",\"node\":{\"id\":10,\"value\":\"T A ≠ B\",\"references\":[]},\"child\":{\"type\":\"delta\",\"node\":{\"id\":11,\"value\":\"F killed(A, A)\",\"references\":[]},\"child\":{\"type\":\"alpha\",\"node\":{\"id\":12,\"value\":\"T ( lives(K) ∧ killed(K, A) )\",\"references\":[\"1\"]},\"child\":{\"type\":\"alpha\",\"node\":{\"id\":13,\"value\":\"T lives(K)\",\"references\":[\"12\"]},\"child\":{\"type\":\"gammaStar\",\"node\":{\"id\":14,\"value\":\"T killed(K, A)\",\"references\":[\"12\"]},\"child\":{\"type\":\"mp\",\"node\":{\"id\":15,\"value\":\"T ( killed(K, A) → ( hates(K, A) ∧ ¬richer(K, A) ) )\",\"references\":[\"4\"]},\"child\":{\"type\":\"alpha\",\"node\":{\"id\":16,\"value\":\"T ( hates(K, A) ∧ ¬richer(K, A) )\",\"references\":[\"15\",\"14\"]},\"child\":{\"type\":\"alpha\",\"node\":{\"id\":17,\"value\":\"T hates(K, A)\",\"references\":[\"16\"]},\"child\":{\"type\":\"gamma\",\"node\":{\"id\":18,\"value\":\"T ¬richer(K, A)\",\"references\":[\"16\"]},\"child\":{\"type\":\"mp\",\"node\":{\"id\":19,\"value\":\"T ( lives(K) → ( ( K ≐ A ∨ K ≐ B ) ∨ K ≐ C ) )\",\"references\":[\"3\"]},\"child\":{\"type\":\"beta\",\"node\":{\"id\":20,\"value\":\"T ( ( K ≐ A ∨ K ≐ B ) ∨ K ≐ C )\",\"references\":[\"13\",\"19\"]},\"leftChild\":{\"type\":\"beta\",\"node\":{\"id\":21,\"value\":\"T ( K ≐ A ∨ K ≐ B )\",\"references\":[\"20\"]},\"leftChild\":{\"type\":\"leibnitz\",\"node\":{\"id\":22,\"value\":\"T  K ≐ A\",\"references\":[\"21\"]},\"child\":{\"type\":\"closed\",\"node\":{\"id\":23,\"value\":\"T killed(A, A)\",\"references\":[\"22\",\"14\"]},\"closed\":[\"23\",\"11\"]}},\"rightChild\":{\"type\":\"leibnitz\",\"node\":{\"id\":24,\"value\":\"T K ≐ B\",\"references\":[\"21\"]},\"child\":{\"type\":\"gamma\",\"node\":{\"id\":25,\"value\":\"T ¬richer(B, A)\",\"references\":[\"24\",\"18\"]},\"child\":{\"type\":\"mp\",\"node\":{\"id\":26,\"value\":\"T ( ¬richer(B, A) → hates(B, B) )\",\"references\":[\"7\"]},\"child\":{\"type\":\"gamma\",\"node\":{\"id\":27,\"value\":\"T hates(B, B)\",\"references\":[\"25\",\"26\"]},\"child\":{\"type\":\"delta\",\"node\":{\"id\":28,\"value\":\"T ∃y ¬hates(B, y)\",\"references\":[\"9\"]},\"child\":{\"type\":\"alpha\",\"node\":{\"id\":29,\"value\":\"T ¬hates(B, z)\",\"references\":[\"28\"]},\"child\":{\"type\":\"gamma\",\"node\":{\"id\":30,\"value\":\"F hates(B, z)\",\"references\":[\"29\"]},\"child\":{\"type\":\"mt\",\"node\":{\"id\":31,\"value\":\"T ( hates(A, z) → hates(B, z) )\",\"references\":[\"8\"]},\"child\":{\"type\":\"gamma\",\"node\":{\"id\":32,\"value\":\"F hates(A, z)\",\"references\":[\"31\",\"30\"]},\"child\":{\"type\":\"mt\",\"node\":{\"id\":33,\"value\":\"T ( z ≠ B → hates(A, z) )\",\"references\":[\"6\"]},\"child\":{\"type\":\"alpha\",\"node\":{\"id\":34,\"value\":\"F z ≠ B\",\"references\":[\"33\",\"32\"]},\"child\":{\"type\":\"leibnitz\",\"node\":{\"id\":35,\"value\":\"T z = B\",\"references\":[\"34\"]},\"child\":{\"type\":\"closed\",\"node\":{\"id\":36,\"value\":\"F hates(B, B)\",\"references\":[\"35\",\" 30\"]},\"closed\":[\"27\",\"36\"]}}}},\"substitution\":{\"str\":\"x -> z\"}}},\"substitution\":{\"str\":\"x -> z\"}}},\"substitution\":{\"str\":\"y -> z\"}},\"substitution\":{\"str\":\"x -> B\"}}},\"substitution\":{\"str\":\"x -> B\"}}}},\"rightChild\":{\"type\":\"leibnitz\",\"node\":{\"id\":37,\"value\":\"T K ≐ C\",\"references\":[\"20\"]},\"child\":{\"type\":\"gamma\",\"node\":{\"id\":38,\"value\":\"T hates(C, A)\",\"references\":[\"37\",\"17\"]},\"child\":{\"type\":\"beta\",\"node\":{\"id\":39,\"value\":\"T ( hates(A, A) → ¬ hates(C, A) )\",\"references\":[\"5\"]},\"leftChild\":{\"type\":\"gamma\",\"node\":{\"id\":40,\"value\":\"F hates(A, A)\",\"references\":[\"39\"]},\"child\":{\"type\":\"mp\",\"node\":{\"id\":41,\"value\":\"T ( A ≠ B → hates(A, A) )\",\"references\":[\"6\"]},\"child\":{\"type\":\"closed\",\"node\":{\"id\":42,\"value\":\"T hates(A, A)\",\"references\":[\"41\",\"10\"]},\"closed\":[\"40\",\"42\"]}},\"substitution\":{\"str\":\"x -> A\"}},\"rightChild\":{\"type\":\"alpha\",\"node\":{\"id\":43,\"value\":\"T ¬ hates(C, A)\",\"references\":[\"39\"]},\"child\":{\"type\":\"closed\",\"node\":{\"id\":44,\"value\":\"F hates(C, A)\",\"references\":[\"43\"]},\"closed\":[\"38\",\"44\"]}}},\"substitution\":{\"str\":\"x -> A\"}}}}},\"substitution\":{\"str\":\"x -> K\"}}}}},\"substitution\":{\"str\":\"x -> K, y -> A\"}}}},\"substitution\":{\"str\":\"x -> K\"}}}}}}}}}}},\"config\":\"Full FOL\"}\n",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    },
+    "12": {
+      "id": 12,
+      "type": "text",
+      "data": "## License\n\nThis example was created by Ján Kľuka in 2022 using the source cited above.\nYou can use it under the terms of the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.",
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
+    }
+  },
+  "cellsOrder": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    1,
+    12
+  ],
+  "firstCellId": 0,
+  "lastCellId": 12,
+  "editedCellId": 12
+}
