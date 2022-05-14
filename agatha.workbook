@@ -48,7 +48,7 @@
     "4": {
       "id": 4,
       "type": "text",
-      "data": "### Formalization\n\nYou can **stop scrolling here** and try to formalize the mystery yourself.\nYou ca",
+      "data": "### Formalization\n\nYou can **stop scrolling here** and try to formalize the mystery yourself.\nYou can verify your formalization usi",
       "idCounter": 0,
       "comments": {
         "ids": [],
