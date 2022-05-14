@@ -59,7 +59,7 @@
     "5": {
       "id": 5,
       "type": "text",
-      "data": "### Model building\n\nAssume we'd like to check whether the mystery is not contradictory.\nTowards this end we can try to find a model of the formalized theory\nusing the Structure Explorer as shown below.\n\nWe set up the first-order language of the theory in the upper-left section,\ninsert formulas in the right-hand section, and build the model\nin the left-hand section. When Structure Explorer is in the editable state,\nits left and right halves can be scrolled independently,\nwhich helps observing the effect of",
+      "data": "### Model building\n\nAssume we'd like to check whether the mystery is not contradictory.\nTowards this end we can try to find a model of the formalized theory\nusing the Structure Explorer as shown below.\n\nWe set up the first-order language of the theory in the upper-left section,\ninsert formulas in the right-hand section, and build the model\nin the left-hand section. When Structure Explorer is in the editable state,\nits left and right halves can be scrolled independently,\nwhich helps observing the effect of cahstructure",
       "idCounter": 0,
       "comments": {
         "ids": [],
