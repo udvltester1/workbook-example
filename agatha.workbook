@@ -81,7 +81,7 @@
     "7": {
       "id": 7,
       "type": "text",
-      "data": "Structure Explorer is flexible enough to be used in different kinds of exercises –\nchecking whether students' guesses of truth/falsity of formulas are correct,\nfinding models of given formulas, ",
+      "data": "Structure Explorer is flexible enough to be used in different kinds of exercises –\nchecking whether students' guesses of truth/falsity of formulas are correct,\nfinding models of given formulas, describing models with formulas etc.",
       "idCounter": 0,
       "comments": {
         "ids": [],
