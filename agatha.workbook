@@ -48,7 +48,7 @@
     "4": {
       "id": 4,
       "type": "text",
-      "data": "### Formalization\n\nYou can **stop scrolling here** and try to formalize the mystery yourself.\nYou can verify your formalization using our [Formalization Checker](https://fmfi-uk-1-ain-412.github.io/formalization-checker/solve/11),\nwhich alas is yet integrated into the Workbook.",
+      "data": "### Formalization\n\nYou can **stop scrolling here** and try to formalize the mystery yourself.\nYou can verify your formalization using our [Formalization Checker](https://fmfi-uk-1-ain-412.github.io/formalization-checker/solve/11),\nwhich alas is yet integrated into the Workbook since it has only recently been .",
       "idCounter": 0,
       "comments": {
         "ids": [],
