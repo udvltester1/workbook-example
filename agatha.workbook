@@ -37,7 +37,7 @@
     "3": {
       "id": 3,
       "type": "text",
-      "data": "## Dreadsburry Murder Mystery\n\n\n\n_L.K. Schubert via Pelletier (1986)_",
+      "data": "## Dreadsburry Murder Mystery\n\nSomeone who lives in Dreadsbury Mansion killed Aunt Agatha.\nCharles hates no one whom Agatha hates.\n\n_L.K. Schubert via Pelletier (1986)_",
       "idCounter": 0,
       "comments": {
         "ids": [],
