@@ -37,7 +37,7 @@
     "3": {
       "id": 3,
       "type": "text",
-      "data": "## Dreadsburry Murder Mystery\n\nSomeone who lives in Dreadsbury Mansion killed Aunt Agatha.\nAgatha, the butler, and Charles live in Dreadsbury Mansion, …and are the only ones to live there.\n\n_L.K. Schubert via Pelletier (1986)_",
+      "data": "## Dreadsburry Murder Mystery\n\nSomeone who lives in Dreadsbury Mansion killed Aunt Agatha.\nAgatha, the butler, and Charles live in Dreadsbury Mansion,\nand are the only ones to live there. \n\n_L.K. Schubert via Pelletier (1986)_",
       "idCounter": 0,
       "comments": {
         "ids": [],
