@@ -15,7 +15,7 @@
     "1": {
       "id": 1,
       "type": "text",
-      "data": "## Biblio",
+      "data": "## Bibliography\n\n",
       "idCounter": 0,
       "comments": {
         "ids": [],
