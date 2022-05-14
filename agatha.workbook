@@ -26,7 +26,7 @@
     "2": {
       "id": 2,
       "type": "text",
-      "data": "Logic Workbook allows editing worksheets similar to Jupyter or Mathematica notebooks.\nYou can add Text and App cells",
+      "data": "Logic Workbook allows editing worksheets similar to Jupyter or Mathematica notebooks.\nYou can add Text and App cells – the former containing Markd",
       "idCounter": 0,
       "comments": {
         "ids": [],
