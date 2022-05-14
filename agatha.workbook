@@ -110,17 +110,6 @@
         "entities": {}
       },
       "isEdited": false
-    },
-    "10": {
-      "id": 10,
-      "type": "text",
-      "data": "### Resolution Proof\n\nAnother way of proving that Agatha killed herself is by resolution.\nWe first convert the theory and the negated goal to first-order clauses.\nWe can then use Resolution Editor to build a refutation.",
-      "idCounter": 0,
-      "comments": {
-        "ids": [],
-        "entities": {}
-      },
-      "isEdited": false
     }
   },
   "cellsOrder": [
@@ -133,7 +122,6 @@
     7,
     8,
     9,
-    10,
     1
   ],
   "firstCellId": 0,
