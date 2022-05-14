@@ -59,7 +59,7 @@
     "5": {
       "id": 5,
       "type": "text",
-      "data": "### Model building\n\nAssume we'd",
+      "data": "### Model building\n\nAssume we'd like to check whether the mystery's pr",
       "idCounter": 0,
       "comments": {
         "ids": [],
