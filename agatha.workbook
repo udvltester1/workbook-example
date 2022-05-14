@@ -37,7 +37,7 @@
     "3": {
       "id": 3,
       "type": "text",
-      "data": "## Dreadsburry Murder Mystery\n\nL.K. Schubert via Pelletier (1986).",
+      "data": "## Dreadsburry Murder Mystery\n\n\n\n_L.K. Schubert via Pelletier (1986)_",
       "idCounter": 0,
       "comments": {
         "ids": [],
