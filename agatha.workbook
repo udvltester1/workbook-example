@@ -92,7 +92,7 @@
     "8": {
       "id": 8,
       "type": "text",
-      "data": "### Proofs\n\nWhen trying to find the model, you quickly find ",
+      "data": "### Proofs\n\nWhen trying to find the model, you quickly find out, who the killer is.",
       "idCounter": 0,
       "comments": {
         "ids": [],
