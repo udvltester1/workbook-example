@@ -92,13 +92,13 @@
     "8": {
       "id": 8,
       "type": "text",
-      "data": "some content",
+      "data": "### Proofs\n\n",
       "idCounter": 0,
       "comments": {
         "ids": [],
         "entities": {}
       },
-      "isEdited": false
+      "isEdited": true
     }
   },
   "cellsOrder": [
@@ -114,5 +114,5 @@
   ],
   "firstCellId": 0,
   "lastCellId": 1,
-  "editedCellId": 6
+  "editedCellId": 8
 }
