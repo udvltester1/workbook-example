@@ -76,7 +76,7 @@
         "ids": [],
         "entities": {}
       },
-      "isEdited": true
+      "isEdited": false
     },
     "7": {
       "id": 7,
@@ -103,13 +103,13 @@
     "9": {
       "id": 9,
       "type": "tableauEditor",
-      "data": "{\"type\":\"assumption\",\"node\":{\"id\":1,\"value\":\"F killed(A,A)\",\"references\":[]},\"child\":{\"type\":\"open\",\"node\":{\"id\":2,\"value\":\"T ((lives(A) ∨ lives(B)) ∨ lives(C))\",\"references\":[]}},\"config\":\"Basic propositional\"}\n",
+      "data": "{\"type\":\"assumption\",\"node\":{\"id\":1,\"value\":\"F killed(A,A)\",\"references\":[]},\"child\":{\"type\":\"open\",\"node\":{\"id\":2,\"value\":\"T \\\\A x(lives(x) → ((x = A ∨ x = B) ∨ x = C))\",\"references\":[]}},\"config\":\"Basic propositional\"}\n",
       "idCounter": 0,
       "comments": {
         "ids": [],
         "entities": {}
       },
-      "isEdited": false
+      "isEdited": true
     }
   },
   "cellsOrder": [
@@ -126,5 +126,5 @@
   ],
   "firstCellId": 0,
   "lastCellId": 1,
-  "editedCellId": 6
+  "editedCellId": 9
 }
