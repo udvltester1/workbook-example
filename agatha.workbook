@@ -103,7 +103,7 @@
     "9": {
       "id": 9,
       "type": "tableauEditor",
-      "data": "{\"type\":\"assumption\",\"node\":{\"id\":1,\"value\":\"F killed(A,A)\",\"references\":[]},\"child\":{\"type\":\"open\",\"node\":{\"id\":2,\"value\":\"F\",\"references\":[]}},\"config\":\"Basic propositional\"}\n",
+      "data": "{\"type\":\"assumption\",\"node\":{\"id\":1,\"value\":\"F killed(A,A)\",\"references\":[]},\"child\":{\"type\":\"open\",\"node\":{\"id\":2,\"value\":\"T ((lives(A) ∨ lives(B)) ∨ lives(C))\",\"references\":[]}},\"config\":\"Basic propositional\"}\n",
       "idCounter": 0,
       "comments": {
         "ids": [],
