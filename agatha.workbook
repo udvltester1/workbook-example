@@ -15,7 +15,7 @@
     "1": {
       "id": 1,
       "type": "text",
-      "data": "This Logic Workbook example uses the classic Dreadsbury Murder Mystery\nby L.K. Schubert (via F.J. Pelletier’s Seventy-Five Problems for Testing Automatic Theorem Provers).\n\nThe formalization",
+      "data": "## Biblio",
       "idCounter": 0,
       "comments": {
         "ids": [],
