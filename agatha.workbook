@@ -15,7 +15,7 @@
     "1": {
       "id": 1,
       "type": "text",
-      "data": "This is an example formalization exercise – the famous Dreadsbury Murder Mystery by L.K. Schubert (via F.J. Pelletier’s Seventy-Five Problems for Testing Automatic Theorem Provers). The language in which you should formalize the mystery consists of three constants A, B, C for Aunt Agatha, the butler, and Charles, respectively, three binary predicates hates(who, whom), killed(who, whom), richer(who, than_whom), and a unary predicate lives(x) – x lives in Dreadsbury Mansion.",
+      "data": "This Loexample formalization exercise – the famous Dreadsbury Murder Mystery by L.K. Schubert (via F.J. Pelletier’s Seventy-Five Problems for Testing Automatic Theorem Provers). The language in which you should formalize the mystery consists of three constants A, B, C for Aunt Agatha, the butler, and Charles, respectively, three binary predicates hates(who, whom), killed(who, whom), richer(who, than_whom), and a unary predicate lives(x) – x lives in Dreadsbury Mansion.",
       "idCounter": 0,
       "comments": {
         "ids": [],
