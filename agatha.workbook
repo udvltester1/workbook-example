@@ -4,7 +4,7 @@
     "0": {
       "id": 0,
       "type": "text",
-      "data": "# Agatha Mystery – Logic ",
+      "data": "# Agatha Mystery – A Logic Workboox Example",
       "idCounter": 0,
       "comments": {
         "ids": [],
