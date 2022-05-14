@@ -48,7 +48,7 @@
     "4": {
       "id": 4,
       "type": "text",
-      "data": "some content",
+      "data": "### Formalization\n\n",
       "idCounter": 0,
       "comments": {
         "ids": [],
