@@ -15,7 +15,7 @@
     "1": {
       "id": 1,
       "type": "text",
-      "data": "## Bibliography\n\nF.J. Pelletier. _Seventy-Five Problems for Testing Automatic Theorem Provers._ ",
+      "data": "## Bibliography\n\nF.J. Pelletier. _Seventy-Five Problems for Testing Automatic Theorem Provers._ J Autom Reasoning 2, 191–216 (1986). https://doi.org/10.1007/BF02432151",
       "idCounter": 0,
       "comments": {
         "ids": [],
