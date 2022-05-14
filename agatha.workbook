@@ -120,7 +120,7 @@
         "ids": [],
         "entities": {}
       },
-      "isEdited": true
+      "isEdited": false
     }
   },
   "cellsOrder": [
