@@ -125,13 +125,13 @@
     "11": {
       "id": 11,
       "type": "resolutionEditor",
-      "data": null,
+      "data": "{\"language\":{\"consts\":{\"input\":\"\",\"object\":[],\"error\":\"\",\"symbols\":[]},\"funs\":{\"input\":\"\",\"object\":[],\"error\":\"\",\"symbols\":[]},\"preds\":{\"input\":\"hates/2, killed/2, lives/1, richer/2\",\"object\":[[\"hates\",2],[\"killed\",2],[\"lives\",1],[\"richer\",2]],\"error\":\"\",\"symbols\":[{\"name\":\"hates\",\"arity\":2},{\"name\":\"killed\",\"arity\":2},{\"name\":\"lives\",\"arity\":1},{\"name\":\"richer\",\"arity\":2}]}},\"steps\":{\"order\":[],\"allSteps\":[],\"rank\":[],\"id\":0},\"inputChange\":{\"originValue\":\"\"}}",
       "idCounter": 0,
       "comments": {
         "ids": [],
         "entities": {}
       },
-      "isEdited": false
+      "isEdited": true
     }
   },
   "cellsOrder": [
@@ -150,5 +150,5 @@
   ],
   "firstCellId": 0,
   "lastCellId": 1,
-  "editedCellId": 10
+  "editedCellId": 11
 }
