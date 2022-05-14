@@ -125,7 +125,7 @@
     "11": {
       "id": 11,
       "type": "resolutionEditor",
-      "data": "{\"language\":{\"consts\":{\"input\":\"\",\"object\":[],\"error\":\"\",\"symbols\":[]},\"funs\":{\"input\":\"nh/1\",\"object\":[[\"nh\",1]],\"error\":\"\",\"symbols\":[{\"name\":\"nh\",\"arity\":1}]},\"preds\":{\"input\":\"hates/2, killed/2, lives/1, richer/2\",\"object\":[[\"hates\",2],[\"killed\",2],[\"lives\",1],[\"richer\",2]],\"error\":\"\",\"symbols\":[{\"name\":\"hates\",\"arity\":2},{\"name\":\"killed\",\"arity\":2},{\"name\":\"lives\",\"arity\":1},{\"name\":\"richer\",\"arity\":2}]}},\"steps\":{\"order\":[],\"allSteps\":[],\"rank\":[],\"id\":0},\"inputChange\":{\"originValue\":\"\"}}",
+      "data": "{\"language\":{\"consts\":{\"input\":\"A, B, C, \",\"object\":[\"A\",\"B\",\"C\"],\"error\":{\"message\":\"Expected constant identifier but end of input found.\",\"expected\":[{\"type\":\"other\",\"description\":\"constant identifier\"}],\"found\":null,\"location\":{\"start\":{\"offset\":9,\"line\":1,\"column\":10},\"end\":{\"offset\":9,\"line\":1,\"column\":10}},\"name\":\"SyntaxError\"},\"symbols\":[\"A\",\"B\",\"C\"]},\"funs\":{\"input\":\"nh/1\",\"object\":[[\"nh\",1]],\"error\":\"\",\"symbols\":[{\"name\":\"nh\",\"arity\":1}]},\"preds\":{\"input\":\"hates/2, killed/2, lives/1, richer/2\",\"object\":[[\"hates\",2],[\"killed\",2],[\"lives\",1],[\"richer\",2]],\"error\":\"\",\"symbols\":[{\"name\":\"hates\",\"arity\":2},{\"name\":\"killed\",\"arity\":2},{\"name\":\"lives\",\"arity\":1},{\"name\":\"richer\",\"arity\":2}]}},\"steps\":{\"order\":[],\"allSteps\":[],\"rank\":[],\"id\":0},\"inputChange\":{\"originValue\":\"\"}}",
       "idCounter": 0,
       "comments": {
         "ids": [],
