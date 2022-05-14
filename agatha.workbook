@@ -26,13 +26,13 @@
     "2": {
       "id": 2,
       "type": "text",
-      "data": "some content",
+      "data": "Logic Workbook is a similar ",
       "idCounter": 0,
       "comments": {
         "ids": [],
         "entities": {}
       },
-      "isEdited": false
+      "isEdited": true
     }
   },
   "cellsOrder": [
@@ -42,5 +42,5 @@
   ],
   "firstCellId": 0,
   "lastCellId": 1,
-  "editedCellId": 1
+  "editedCellId": 2
 }
