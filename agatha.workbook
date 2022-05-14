@@ -4,13 +4,13 @@
     "0": {
       "id": 0,
       "type": "text",
-      "data": "# Agatha Mystery – A Logic Workboox Example\n",
+      "data": "# Logic Workboox Example\n",
       "idCounter": 0,
       "comments": {
         "ids": [],
         "entities": {}
       },
-      "isEdited": true
+      "isEdited": false
     },
     "1": {
       "id": 1,
