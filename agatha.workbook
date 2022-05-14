@@ -37,13 +37,13 @@
     "3": {
       "id": 3,
       "type": "text",
-      "data": "## Agatha",
+      "data": "## Dreadsburry Murder Myster",
       "idCounter": 0,
       "comments": {
         "ids": [],
         "entities": {}
       },
-      "isEdited": false
+      "isEdited": true
     }
   },
   "cellsOrder": [
@@ -54,5 +54,5 @@
   ],
   "firstCellId": 0,
   "lastCellId": 1,
-  "editedCellId": 0
+  "editedCellId": 3
 }
