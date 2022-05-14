@@ -37,7 +37,7 @@
     "3": {
       "id": 3,
       "type": "text",
-      "data": "## Dreadsburry Murder Mystery\n\nby ",
+      "data": "## Dreadsburry Murder Mystery\n\nL.K. ",
       "idCounter": 0,
       "comments": {
         "ids": [],
