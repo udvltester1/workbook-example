@@ -15,7 +15,7 @@
     "1": {
       "id": 1,
       "type": "text",
-      "data": "## Bibliography\n\n",
+      "data": "## Bibliography\n\nF.J. Pelletier. <cite>Seventy-Five Problems for Testing Automatic Theorem Provers",
       "idCounter": 0,
       "comments": {
         "ids": [],
