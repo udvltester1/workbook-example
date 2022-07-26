@@ -121,17 +121,6 @@
         "entities": {}
       },
       "isEdited": false
-    },
-    "13": {
-      "id": 13,
-      "type": "resolutionEditor",
-      "data": "{\"language\":{\"consts\":{\"input\":\"\",\"object\":[],\"error\":\"\",\"symbols\":[]},\"funs\":{\"input\":\"\",\"object\":[],\"error\":\"\",\"symbols\":[]},\"preds\":{\"input\":\"\",\"object\":[],\"error\":\"\",\"symbols\":[]}},\"steps\":{\"order\":[],\"allSteps\":[],\"rank\":[],\"id\":0},\"inputChange\":{\"originValue\":\"\"}}",
-      "idCounter": 0,
-      "comments": {
-        "ids": [],
-        "entities": {}
-      },
-      "isEdited": true
     }
   },
   "cellsOrder": [
@@ -144,11 +133,9 @@
     7,
     8,
     9,
-    13,
     1,
     12
   ],
   "firstCellId": 0,
-  "lastCellId": 12,
-  "editedCellId": 13
+  "lastCellId": 12
 }
