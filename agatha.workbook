@@ -37,7 +37,7 @@
     "3": {
       "id": 3,
       "type": "text",
-      "data": "## Dreadsburry Murder Mystery\n\nSomeone in Dreadsbury Mansion killed Aunt Agatha.\nAgatha, the butler, and Charles live in Dreadsbury Mansion,\nand are the only ones to live there.\nA killer always hates, and is no richer than his victim.\nCharles hates no one whom Agatha hates.\nAgatha hates everybody except the butler.\nThe butler hates everyone not richer than Aunt Agatha.\nThe butler hates everyone whom Agatha hates.\nNo one hates everyone.\nAgatha is not the butler.\nWho killed Agatha?\n\n— _L.K. Schubert via Pelletier (1986)_",
+      "data": "## Dreadsbury Murder Mystery\n\nSomeone in Dreadsbury Mansion killed Aunt Agatha.\nAgatha, the butler, and Charles live in Dreadsbury Mansion,\nand are the only ones to live there.\nA killer always hates, and is no richer than his victim.\nCharles hates no one whom Agatha hates.\nAgatha hates everybody except the butler.\nThe butler hates everyone not richer than Aunt Agatha.\nThe butler hates everyone whom Agatha hates.\nNo one hates everyone.\nAgatha is not the butler.\nWho killed Agatha?\n\n— _L.K. Schubert via Pelletier (1986)_",
       "idCounter": 0,
       "comments": {
         "ids": [],
@@ -138,5 +138,5 @@
   ],
   "firstCellId": 0,
   "lastCellId": 12,
-  "editedCellId": 4
+  "editedCellId": 3
 }
