@@ -99,17 +99,6 @@
         "entities": {}
       },
       "isEdited": false
-    },
-    "17": {
-      "id": 17,
-      "type": "text",
-      "data": "some content",
-      "idCounter": 0,
-      "comments": {
-        "ids": [],
-        "entities": {}
-      },
-      "isEdited": false
     }
   },
   "cellsOrder": [
@@ -121,7 +110,6 @@
     5,
     8,
     1,
-    17,
     12
   ],
   "firstCellId": 0,
