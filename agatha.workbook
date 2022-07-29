@@ -92,7 +92,7 @@
     "14": {
       "id": 14,
       "type": "text",
-      "data": "* Someone who lives in Dreadsbury Mansion killed Aunt Agatha.\n3. Agatha, the butler, and Charles live in Dreadsbury Mansion, …\n5. … and are the only ones to live there.\n7. A killer always hates, and is no richer than his victim.\n\n9. Charles hates no one whom Agatha hates.\n\n    $\\forall x ( hates(A, x) \\rightarrow \\lnot hates(C, x) )$\n\n11. Agatha hates everybody except the butler.\n\n    $\\forall x ( x ≠ B \\rightarrow hates(A, x) )$\n\n13. The butler hates everyone not richer than Aunt Agatha.\n\n    $\\forall x ( \\lnot richer(x, A) \\rightarrow hates(B, x) )$\n\n15. The butler hates everyone whom Agatha hates.\n\n    $\\forall x ( hates(A, x) \\rightarrow hates(B, x) )$\n\n17. No one hates everyone.\n\n    $\\forall x \\exists y \\lnot hates(x, y)$\n\n19. Agatha is not the butler.\n\n    $A \\neq B$\n",
+      "data": "* Someone who lives in Dreadsbury Mansion killed Aunt Agatha.\n3. Agatha, the butler, and Charles live in Dreadsbury Mansion, …\n5. … and are the only ones to live there.\n7. A killer always hates, and is no richer than his victim.\n\n9. Charles hates no one whom Agatha hates.\n\n11. Agatha hates everybody except the butler.\n\n13. The butler hates everyone not richer than Aunt Agatha.\n\n15. The butler hates everyone whom Agatha hates.\n\n17. No one hates everyone.\n\n19. Agatha is not the butler.\n",
       "idCounter": 0,
       "comments": {
         "ids": [],
