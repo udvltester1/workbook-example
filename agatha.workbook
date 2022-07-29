@@ -70,7 +70,7 @@
     "8": {
       "id": 8,
       "type": "text",
-      "data": "### 3. Proof\n\nWhen trying to find the model, you found out, who the suspekiller is.\nWe can prove that this is indeed a logical consequence of the theory.\n\nWe will first use a tableau with a full set of derived rules for first-order logic\nto keep the tableau concise and easy to follow.",
+      "data": "### 3. Proof\n\nWhen trying to find the model, you found out, who the suspected killer is.\nWe can prove that this is indeed a logical consequence of the theory.\n\nWe will first use a tableau with a full set of derived rules for first-order logic\nto keep the tableau concise and easy to follow.",
       "idCounter": 0,
       "comments": {
         "ids": [],
