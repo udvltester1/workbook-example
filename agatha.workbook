@@ -70,13 +70,13 @@
     "8": {
       "id": 8,
       "type": "text",
-      "data": "### Tableau Proof\n\nWhen trying to find the model, you quickly find out, who the killer is – apparently poor Agatha committed suicide.\nWe can prove that this is indeed a logical consequence of the theory.\n\nWe will first use a tableau with a full set of derived rules for first-order logic\nto keep the tableau concise and easy to follow.",
+      "data": "### 3. Proof\n\nWhen trying to find the model, you quickly find out, who the killer is.\nWe can prove that this is indeed a logical consequence of the theory.\n\nWe will first use a tableau with a full set of derived rules for first-order logic\nto keep the tableau concise and easy to follow.",
       "idCounter": 0,
       "comments": {
         "ids": [],
         "entities": {}
       },
-      "isEdited": false
+      "isEdited": true
     },
     "9": {
       "id": 9,
@@ -125,5 +125,6 @@
     12
   ],
   "firstCellId": 0,
-  "lastCellId": 12
+  "lastCellId": 12,
+  "editedCellId": 8
 }
