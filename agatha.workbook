@@ -16,10 +16,19 @@
       "id": 1,
       "type": "text",
       "data": "## Bibliography\n\nF.J. Pelletier. _Seventy-Five Problems for Testing Automatic Theorem Provers._ J Autom Reasoning 2, 191–216 (1986). https://doi.org/10.1007/BF02432151",
-      "idCounter": 0,
+      "idCounter": 1,
       "comments": {
-        "ids": [],
-        "entities": {}
+        "ids": [
+          0
+        ],
+        "entities": {
+          "0": {
+            "author": "udvltester1",
+            "text": "Perfect. 1 pt.",
+            "timestamp": 1659102270602,
+            "id": 0
+          }
+        }
       },
       "isEdited": false
     },
