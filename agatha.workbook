@@ -1,5 +1,5 @@
 {
-  "idCounter": 21,
+  "idCounter": 22,
   "cells": {
     "0": {
       "id": 0,
@@ -109,7 +109,18 @@
         "ids": [],
         "entities": {}
       },
-      "isEdited": true
+      "isEdited": false
+    },
+    "21": {
+      "id": 21,
+      "type": "tableauEditor",
+      "data": null,
+      "idCounter": 0,
+      "comments": {
+        "ids": [],
+        "entities": {}
+      },
+      "isEdited": false
     }
   },
   "cellsOrder": [
@@ -121,6 +132,7 @@
     5,
     20,
     8,
+    21,
     1,
     12
   ],
