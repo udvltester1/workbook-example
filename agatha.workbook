@@ -59,7 +59,7 @@
     "5": {
       "id": 5,
       "type": "text",
-      "data": "### 2. Satisfiability – model building\n\nCheck whether the evidence is not contradictory\nby showing that the formalized theory is satisfiable, i.e., it has a model.\nusing the Structure Explorer as shown below.\n\nWe set up the first-order language of the theory in the upper-left section,\ninsert formulas in the right-hand section, and build the model\nin the left-hand section. When Structure Explorer is in the editable state,\nits left and right halves can be scrolled independently,\nwhich helps observing the effect of changing the structure\non the truth values of formulas.\n\nIf a formula is false though we expect it to be true,\nwe can play a Henkin–Hintikka game with the Explorer better understand\nwhy the formula is false.",
+      "data": "### 2. Satisfiability – model building\n\nCheck whether the evidence is not contradictory\nby showing that the formalized theory is satisfiable, i.e., it has a model.\nUsing Structure Explorer to do so.\n\nWe set up the first-order language of the theory in the upper-left section,\ninsert formulas in the right-hand section, and build the model\nin the left-hand section. When Structure Explorer is in the editable state,\nits left and right halves can be scrolled independently,\nwhich helps observing the effect of changing the structure\non the truth values of formulas.\n\nIf a formula is false though we expect it to be true,\nwe can play a Henkin–Hintikka game with the Explorer better understand\nwhy the formula is false.",
       "idCounter": 0,
       "comments": {
         "ids": [],
