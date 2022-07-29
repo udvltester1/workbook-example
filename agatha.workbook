@@ -70,7 +70,7 @@
     "8": {
       "id": 8,
       "type": "text",
-      "data": "### 3. Proof\n\nWhen trying to find the model, you determined the suspected killer.\nProve that this suspect is certainly the killer by showing that the\nfact that they kila logical consequence of the theory.\n",
+      "data": "### 3. Proof\n\nWhen trying to find the model, you determined the suspected killer.\nProve that this suspect is certainly the killer by showing that the\nfact that they killed Agatha is a logical consequence of the theory.\n",
       "idCounter": 0,
       "comments": {
         "ids": [],
