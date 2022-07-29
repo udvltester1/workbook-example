@@ -59,7 +59,7 @@
     "5": {
       "id": 5,
       "type": "text",
-      "data": "### 2. Satisfiability – model building\n\nCheck whether the evidence is not contradictory\nby showing that the formalized theory is satisfiable, i.e., it has a model.\nUsing Structure Explorer to do so.\n\nIf a formula is false though you expect it to be true,\nwe can play a Henkin–Hintikka game with the Explorer better understand\nwhy the formula is false.",
+      "data": "### 2. Satisfiability – model building\n\nCheck whether the evidence is not contradictory\nby showing that the formalized theory is satisfiable, i.e., it has a model.\nUsing Structure Explorer to do so.\n\nIf a formula is false though you expect it to be true,\nyou can play a Henkin–Hintikka game with the Explorer better understand\nwhy the formula is false.",
       "idCounter": 0,
       "comments": {
         "ids": [],
