@@ -70,7 +70,7 @@
     "8": {
       "id": 8,
       "type": "text",
-      "data": "### 3. Proof\n\nWhen trying to find the model, you determined the suspected killer.\nProve that this is indeed a logical consequence of the theory.\n",
+      "data": "### 3. Proof\n\nWhen trying to find the model, you determined the suspected killer.\nProve that this suspect is indeed the killer a logical consequence of the theory.\n",
       "idCounter": 0,
       "comments": {
         "ids": [],
