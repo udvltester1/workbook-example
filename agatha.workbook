@@ -125,13 +125,13 @@
     "14": {
       "id": 14,
       "type": "text",
-      "data": "some content",
+      "data": "Someone in Dreadsbury Mansion killed Aunt Agatha.\nAgatha, the butler, and Charles live in Dreadsbury Mansion, and are the only ones to live there. A killer always hates, and is no richer than his victim. Charles hates no one whom Agatha hates. Agatha hates everybody except the butler. The butler hates everyone not richer than Aunt Agatha. The butler hates everyone whom Agatha hates. No one hates everyone. Agatha is not the butler. Who killed Agatha?",
       "idCounter": 0,
       "comments": {
         "ids": [],
         "entities": {}
       },
-      "isEdited": false
+      "isEdited": true
     }
   },
   "cellsOrder": [
@@ -150,5 +150,5 @@
   ],
   "firstCellId": 0,
   "lastCellId": 12,
-  "editedCellId": 4
+  "editedCellId": 14
 }
