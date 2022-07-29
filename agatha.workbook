@@ -92,13 +92,13 @@
     "14": {
       "id": 14,
       "type": "text",
-      "data": "* Someone who lives in Dreadsbury Mansion killed Aunt Agatha.\n\n  $\\exists x( lives(x) \\land killed(x,A) )$\n\n* Agatha, the butler, and Charles live in Dreadsbury Mansion, …\n\n* … and are the only ones to live there.\n\n* A killer always hates, and is no richer than his victim.\n\n* Charles hates no one whom Agatha hates.\n\n* Agatha hates everybody except the butler.\n\n* The butler hates everyone not richer than Aunt Agatha.\n\n* The butler hates everyone whom Agatha hates.\n\n* No one hates everyone.\n\n* Agatha is not the butler.\n",
+      "data": "* Someone who lives in Dreadsbury Mansion killed Aunt Agatha.\n\n   $\\exists x ( lives(x) \\land killed(x, A) )$\n\n* Agatha, the butler, and Charles live in Dreadsbury Mansion, …\n\n   $lives(A) \\lor lives(B) \\lor lives(C)$\n\n* … and are the only ones to live there.\n\n   $\\forall x ( lives(x) \\rightarrow x = A \\lor x = B \\lor x = C )$\n\n* A killer always hates, and is no richer than his victim.\n\n   $\\forall y \\forall x ( killed(x, y) \\rightarrow ( hates(x, y) \\land \\lnot richer(x, y) ) )$\n\n* Charles hates no one whom Agatha hates.\n\n    $\\forall x ( hates(A, x) \\rightarrow \\lnot hates(C, x) )$\n\n* Agatha hates everybody except the butler.\n\n    $\\forall x ( x ≠ B \\rightarrow hates(A, x) )$\n\n* The butler hates everyone not richer than Aunt Agatha.\n\n    $\\forall x ( \\lnot richer(x, A) \\rightarrow hates(B, x) )$\n\n* The butler hates everyone whom Agatha hates.\n\n    $\\forall x ( hates(A, x) \\rightarrow hates(B, x) )$\n\n* No one hates everyone.\n\n    $\\forall x \\exists y \\lnot hates(x, y)$\n\n* Agatha is not the butler.\n\n    $A \\neq B$\n",
       "idCounter": 0,
       "comments": {
         "ids": [],
         "entities": {}
       },
-      "isEdited": true
+      "isEdited": false
     }
   },
   "cellsOrder": [
