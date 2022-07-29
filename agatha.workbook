@@ -92,7 +92,7 @@
     "14": {
       "id": 14,
       "type": "text",
-      "data": "1. Someone who lives in Dreadsbury Mansion killed Aunt Agatha.\n\n   $\\exists x ( lives(x) \\land killed(x, A) )$\n\n3. Agatha, the butler, and Charles live in Dreadsbury Mansion, …\n\n4. … and are the only ones to live there.\n\n5. A killer always hates, and is no richer than his victim.\n\n6. Charles hates no one whom Agatha hates.\n\n7. Agatha hates everybody except the butler.\n\n8. The butler hates everyone not richer than Aunt Agatha.\n\n9. The butler hates everyone whom Agatha hates.\n\n10. No one hates everyone.\n\n11. Agatha is not the butler.\n",
+      "data": "1. Someone who lives in Dreadsbury Mansion killed Aunt Agatha.\n\n   $\\exists x ( lives(x) \\land killed(x, A) )$\n\n3. Agatha, the butler, and Charles live in Dreadsbury Mansion, …\n\n  4. \n\n5. … and are the only ones to live there.\n\n6. A killer always hates, and is no richer than his victim.\n\n7. Charles hates no one whom Agatha hates.\n\n8. Agatha hates everybody except the butler.\n\n9. The butler hates everyone not richer than Aunt Agatha.\n\n10. The butler hates everyone whom Agatha hates.\n\n11. No one hates everyone.\n\n12. Agatha is not the butler.\n",
       "idCounter": 0,
       "comments": {
         "ids": [],
