@@ -114,13 +114,13 @@
     "16": {
       "id": 16,
       "type": "tableauEditor",
-      "data": null,
+      "data": "{\"type\":\"open\",\"node\":{\"id\":1,\"value\":\"T ∃x ( lives(x) ∧ killed(x, A) )\",\"references\":[]},\"config\":\"Basic propositional\"}\n",
       "idCounter": 0,
       "comments": {
         "ids": [],
         "entities": {}
       },
-      "isEdited": false
+      "isEdited": true
     }
   },
   "cellsOrder": [
@@ -138,5 +138,5 @@
   ],
   "firstCellId": 0,
   "lastCellId": 12,
-  "editedCellId": 15
+  "editedCellId": 16
 }
