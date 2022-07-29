@@ -125,7 +125,7 @@
     "14": {
       "id": 14,
       "type": "text",
-      "data": "1. Someone in Dreadsbury Mansion killed Aunt Agatha.\n    * \n\n3. Agatha, the butler, and Charles live in Dreadsbury Mansion, …\n\n4. … and are the only ones to live there.\n\n5. A killer always hates, and is no richer than his victim.\n\n6. Charles hates no one whom Agatha hates.\n\n7. Agatha hates everybody except the butler.\n\n8. The butler hates everyone not richer than Aunt Agatha.\n\n9. The butler hates everyone whom Agatha hates.\n\n10. No one hates everyone.\n\n11. Agatha is not the butler.\n",
+      "data": "1. Someone in Dreadsbury Mansion killed Aunt Agatha.\n\n2. Agatha, the butler, and Charles live in Dreadsbury Mansion, …\n\n3. … and are the only ones to live there.\n\n4. A killer always hates, and is no richer than his victim.\n\n5. Charles hates no one whom Agatha hates.\n\n6. Agatha hates everybody except the butler.\n\n7. The butler hates everyone not richer than Aunt Agatha.\n\n8. The butler hates everyone whom Agatha hates.\n\n10. No one hates everyone.\n\n11. Agatha is not the butler.\n",
       "idCounter": 0,
       "comments": {
         "ids": [],
