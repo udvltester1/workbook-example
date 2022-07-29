@@ -114,7 +114,7 @@
     "16": {
       "id": 16,
       "type": "tableauEditor",
-      "data": "{\"type\":\"open\",\"node\":{\"id\":1,\"value\":\"T ∃x ( lives(x) ∧ killed(x, A) )\",\"references\":[]},\"config\":\"Basic propositional\"}\n",
+      "data": "{\"type\":\"assumption\",\"node\":{\"id\":1,\"value\":\"T ∃x ( lives(x) ∧ killed(x, A) )\",\"references\":[]},\"child\":{\"type\":\"open\",\"node\":{\"id\":2,\"value\":\"\",\"references\":[]}},\"config\":\"Basic propositional\"}\n",
       "idCounter": 0,
       "comments": {
         "ids": [],
